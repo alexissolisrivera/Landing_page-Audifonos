@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-img-top {
+    width: 95%;
+    height: 37vw;
+    object-fit: cover;
+}
+
+.container2 {
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin: 0px 0px;
+    padding: 3vw 30vw;
+}
+
+.container {
+    object-fit: cover;
+    padding-top: 5vw;
+}
+
+.jumbotron {
+    object-fit: cover;
+    padding: 2rem 1rem;
+}
+
+.b1 {
+    width: 100%;
+    height: 50vw;
+    margin: auto;
+    background: url(/assets/images/mujer_audio.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size: cover;
+}
+
+.b1 .in1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+/*.GS{
+    text-align: center;
+    color: white;
+}*/
+
+.content2 {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.content2 .GS {
+    font-size: 4rem;
+    text-shadow: 0 0 300px #000;
+    color: white;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.432);
+}
+
+.content2 .btn {
+    border-radius: 9px;
+    color: #f9f3f4;
+    text-decoration: none;
+    border: 3px solid #f9f3f4;
+    padding: 7px 24px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.content2 .btn:hover {
+    color: #111;
+    background: #f9f3f4;
+    transition: 0.2s ease;
+}
+
+body {
+    margin: 35px auto;
+    text-align: center;
+    display: block;
+}
+
+.email {
+    border-radius: 9px;
+    color: #f9f3f4;
+    text-decoration: none;
+    border: 3px solid #f9f3f4;
+    padding: 7px 24px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.espacio_mail {
+    padding: 1vw;
+}
+.pie_de_pagina{
+    width: 100%;
+    background-color: #e9ecef;
+}
+
+.pie_de_pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie_de_pagina .grupo1 .box figure{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie_de_pagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.pie_de_pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie_de_pagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie_de_pagina .grupo1 .box .red_social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie_de_pagina .grupo1 .box .red_social a :hover{
+    color: aqua;
+}
+
+.pie_de_pagina .grupo_2{
+    background-color: gray;
+    padding: 15px 10px;
+    text-align: center;
+    color: #f9f3f4;
+}
